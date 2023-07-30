@@ -1,8 +1,6 @@
 # Plastizyme Miner
-Identify potential plastic degrading enzymes focusing on Polyethylene terephthalate (PET), by analysing metagenomic data.
-This Repository is based on previous work by ProteinGAN [https://github.com/Biomatter-Designs/ProteinGAN] and ESM [https://github.com/facebookresearch/esm]
-ProteinGAN is tailored to augment real PET-degrading enzyme datasets.
-The Enriched dataset is utilized to train the classifiers based on the ESM model. 
+Plastizyme Miner aims to identify potential plastic-degrading enzymes, with a focus on Polyethylene terephthalate (PET), by analyzing metagenomic data. The repository builds upon previous work by ProteinGAN [https://github.com/Biomatter-Designs/ProteinGAN] and ESM  [https://github.com/facebookresearch/esm], leveraging ProteinGAN to augment real PET-degrading enzyme datasets and utilizing the enriched dataset to train classifiers based on the ESM model.
+
 ## Paper abstract
 
 ## Licenses
@@ -22,10 +20,9 @@ Or you can use Kaggle virtual machine to run the script as notebook.
 
 
 # Protein GAN
-ProteinGan is trained with real PETase sequences, learns to generate PET sequences.
-Link to Kaggle notebook [https://www.kaggle.com/code/mohammadrezarezae/plastizyme-miner-protein-gan]
+Protein GAN is trained using real PETase sequences and is capable of generating PET sequences. You can access the Kaggle notebook for Protein GAN [https://www.kaggle.com/code/mohammadrezarezae/plastizyme-miner-protein-gan]
 
 # Classifier Using ESM embeding 
-The classification piple line run using ESM model to embed feature vectors then SVM, KNN, and Random forest classifier use the embeding as input for training and test. 
+The classification pipeline employs the ESM model to generate feature vectors, which are then used as input for training and testing SVM, KNN, and Random Forest classifiers. The dataset used for classification can be found on Kaggle, and the Kaggle notebook for the classification process is available.
 Link to kaggle data set [https://www.kaggle.com/datasets/mohammadrezarezae/petase-and-non-petases-protein-sequences]
 Link to Kaggle notebook [https://www.kaggle.com/code/mohammadrezarezae/classsification-with-esm-embeding]
