@@ -117,3 +117,4 @@ logs/
 # results
 results/
 commands.txt
+./src/preprocessing/data/sngan
