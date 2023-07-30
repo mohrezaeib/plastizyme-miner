@@ -1,8 +1,8 @@
 # Plastizyme Miner
-Identify potential plastic degrading enzymes (PET), by analysing metagenomic data.
-This Repository is based on previous work by ProteinGAN [link to proteingan] and ESM [link to esm model]
-ProteinGAN is tailored to augment PET degrading enzyme  dataset.
-The Enriched dataset is utilized to train a classifier  based on ESM model. 
+Identify potential plastic degrading enzymes focusing on Polyethylene terephthalate (PET), by analysing metagenomic data.
+This Repository is based on previous work by ProteinGAN [https://github.com/Biomatter-Designs/ProteinGAN] and ESM [https://github.com/facebookresearch/esm]
+ProteinGAN is tailored to augment real PET-degrading enzyme datasets.
+The Enriched dataset is utilized to train the classifiers based on the ESM model. 
 ## Paper abstract
 
 ## Licenses
@@ -12,15 +12,13 @@ and adapt the material for **non-commercial** purposes, as long as you give appr
 and indicating any changes that you've made.
 
 ## System requirements
-PETGAN model:
 - Operating System: Linux.
 - 64-bit Python 3.7 installation.
 - blastp: 2.6.0+
 - TensorFlow 1.13.1 or newer with GPU support.
 - One or more NVIDIA GPUs. Recomendation: NVIDIA at least P100 GPU with 16GB.
 - NVIDIA driver 418.87 or newer, CUDA toolkit 10.1 or newer, cuDNN 7.6.2 or newer.
-Classifier model:
-
+Or you can use Kaggle virtual machine to run the script as notebook.
 ## Environment
 
 
