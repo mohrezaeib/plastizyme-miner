@@ -19,20 +19,13 @@ and indicating any changes that you've made.
 - One or more NVIDIA GPUs. Recomendation: NVIDIA at least P100 GPU with 16GB.
 - NVIDIA driver 418.87 or newer, CUDA toolkit 10.1 or newer, cuDNN 7.6.2 or newer.
 Or you can use Kaggle virtual machine to run the script as notebook.
-## Environment
 
 
+# Protein GAN
+ProteinGan is trained with real PETase sequences, learns to generate PET sequences.
+Link to Kaggle notebook [https://www.kaggle.com/code/mohammadrezarezae/plastizyme-miner-protein-gan]
 
-## Datasets
-
-
-
-## Training networks
-
-
-
-
-
-## Citation
-
-
+# Classifier Using ESM embeding 
+The classification piple line run using ESM model to embed feature vectors then SVM, KNN, and Random forest classifier use the embeding as input for training and test. 
+Link to kaggle data set [https://www.kaggle.com/datasets/mohammadrezarezae/petase-and-non-petases-protein-sequences]
+Link to Kaggle notebook [https://www.kaggle.com/code/mohammadrezarezae/classsification-with-esm-embeding]
