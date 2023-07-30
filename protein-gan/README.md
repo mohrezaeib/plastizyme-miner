@@ -35,3 +35,6 @@ And print the generated Sequences using
 ```bash
 !cat {PROTEIN_GAN_REPOSITORY_PATH}/weights/sngan/*/*/*/*/*/*/*.fasta
 ```
+
+You can also find a kaggle version of the training here 
+plastizyme protein gan [https://www.kaggle.com/mohammadrezarezae/plastizyme-miner-protein-gan]
